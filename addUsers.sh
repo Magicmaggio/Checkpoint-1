@@ -17,7 +17,6 @@ do #c'est parti
     #message pour dire qu'il existe déjà
     then
         echo "L'utilisateur $utilisateur existe déjà"
-        exit 0
     else
         #on crée l'utilisateur
         #on va vérifier que la création a eu lieu
