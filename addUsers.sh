@@ -24,7 +24,7 @@ do #c'est parti
         #et on va confirmer la bonne création de cet utilisateur => message
         #dans tous les cas le script continue
         sudo useradd $utilisateur > /dev/null #on place ici un sudo car il faut les droits 
-            if cat /etc/passwd | grep $utilisateur > /dev/null #condition la même que plus haut
+            if cat /etc/passwd | grep $utilisateur > /dev/null #condition, la même que plus haut
             then #message de confirmation
                 echo "L'utilisateur $utilisateur a été crée"
             else #message d'erreur
